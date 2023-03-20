@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAYANK FITENESS CLUB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            color: white;
+            background: url('image/bg.webp');
+            height: 1000px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .left {
+            /* border: 3px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 18px;
+            color: white
+        }
+
+        .left img {
+            width: 90px;
+            filter: invert();
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 0%;
+        }
+
+        .left div:hover {
+            color: grey;
+        }
+
+        .mid {
+            /* border: 2px solid yellow; */
+            display: block;
+            width: 800px;
+            margin: 20px auto;
+            font-style: none;
+        }
+
+        .navbar li a:hover {
+            color: grey;
+        }
+
+        .mid a {
+            padding: 15px;
+        }
+
+        .right {
+            /* border: 3px solid green; */
+            display: inline-block;
+            position: absolute;
+            right: 50px;
+            top: 18px
+        }
+
+        .header {
+            /* border: 3px solid rgb(255, 252, 252); */
+            border-radius: 3px;
+            margin: 0px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .button {
+            margin: 19px 4px;
+            padding: 4px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .button:hover {
+            background-color: grey;
+        }
+
+        .container {
+            border: 2px solid rgb(236, 237, 242);
+            margin: 80px 70px;
+            width: 50%;
+            padding: 38px 62px;
+            border-radius: 10px;
+        }
+
+        .container h3 {
+            text-align: left;
+            display: block
+            
+        }
+
+        .form {
+            border-radius: 4px solid rgb(12, 100, 200);
+            margin: 3px 3px;
+            width: 5px;
+            display: block;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 432px;
+            padding: 3px;
+            border-radius: 2px;
+            margin: 13px auto;
+            font-size: 15px;
+            border-radius: 10px;
+            font-family: 'Baloo Bhai 2', cursive;
+            margin-left: 130px;
+        }
+        .button2{
+            margin: 13px 181px;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+            border: 2px solid white;
+             border-radius: 6px;            
+        
+        }
+        .button2:hover{
+            color: grey;
+            border-radius: 10px solid grey;
+           
+        }
+        .container button{
+            display:block;
+            width:  440px;
+            margin:  30px auto;
+            margin-left: 130px;
+        }
+        .container h3{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="image/logo.png" alt="">
+            <div>Mayank Fitness CLUB</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">FITENESS CALCULATOR</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="button">CALL US NOW</button>
+            <button class="button">EMAIL US</button>
+        </div>
+    </header>
+    <div class="container">
+        <H3>JOIN THE BEST GYM OF YOUR CITY</H3>
+        <form action="noaction.php" class="form">
+            <div class="form-group">
+              NAME:  <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+               ADDRESS: <input type="text" placeholder="Enter Your Address">
+            </div>
+            <div class="form-group">
+              PHONE-NO: <input type="text" placeholder="Enter Your Phone-No">
+            </div>
+            <div class="form-group">
+              EMAIL:  <input type="text" placeholder="Enter Your Email">
+            </div>
+            <button class="button2">SUBMIT</button>
+            <button type="reset" class="button2">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
